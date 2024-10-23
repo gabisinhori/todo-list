@@ -1,0 +1,122 @@
+input {
+  color: black;
+}
+
+button {
+  color: white;
+  font-family: sans-serif;
+}
+
+p {
+  font-family: sans-serif;
+}
+
+#tarefa {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+}
+
+.titulo {
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+  margin: 10px;
+  padding: 10px;
+  width: 250px;
+}
+
+.descricao {
+  border-radius: 5px;
+  margin: 10px;
+  padding: 10px;
+  width: 250px;
+}
+
+.dataHora {
+  border-radius: 5px;
+  margin: 10px;
+  padding: 10px;
+  width: 250px;
+}
+
+.salvar {
+  border-radius: 5px;
+  width: 274px;
+  padding: 10px;
+  margin: 10px;
+  background-color: #0d6efd;
+  border-color: #0d6efd;
+}
+
+.salvar:hover {
+  background-color: #0b5ed7;
+  border-color: #0a58ca;
+  cursor: pointer;
+}
+
+.editar {
+  border-radius: 5px;
+  width: 100px;
+  padding: 10px;
+  margin: 10px;
+  background-color: #198754;
+  border-color: #198754;
+}
+
+.editar:hover {
+  background-color: #157347;
+  border-color: #146c43;
+  cursor: pointer;
+}
+
+.remover {
+  border-radius: 5px;
+  width: 100px;
+  padding: 10px;
+  margin: 10px;
+  background-color: #dc3545;
+  border-color: #dc3545;
+}
+
+.remover:hover {
+  background-color: #bb2d3b;
+  border-color: #b02a37;
+  cursor: pointer;
+}
+
+.separador {
+  width: 80%;
+  background-color: black;
+  height: 2px;
+}
+
+.item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 0 10px;
+}
+
+.item {
+  display: flex;
+  width: 95%;
+  margin: 10px;
+  border-top-width: 0px;
+  border-left-width: 0px;
+  border-right-width: 0px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+
+.item div {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 5em;
+  flex-direction: row;
+}
